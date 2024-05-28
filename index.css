@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -33,4 +33,51 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px; 
+    text-align: center; 
+    margin: 5px;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
+  
+
+.metade {
+    width: 50%;
+    box-sizing: content-box;
+    padding: 0 20px;
+}
+
+.botaoGit{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px; 
+    text-align: center; 
+    margin: 5px;
+}
+
+.botaoGit:hover {
+    background-color: #0056b3;
 }
